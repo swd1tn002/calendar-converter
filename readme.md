@@ -21,7 +21,7 @@ npm install @ohjelmistokehitys/calendar-converter
 Then, you can use the package in your code like this:
 
 ```ts
-import convertToICalendar from './converter';
+import convertToICalendar from '@ohjelmistokehitys/calendar-converter';
 
 // ... testCalendar is an object of type Calendar (see type declarations)
 const iCal: string = convertToICalendar(testCalendar);

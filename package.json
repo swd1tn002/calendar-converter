@@ -1,6 +1,6 @@
 {
   "name": "@ohjelmistokehitys/calendar-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility for converting a json calendar to ical format",
   "main": "build/converter.js",
   "types": "build/converter.d.ts",

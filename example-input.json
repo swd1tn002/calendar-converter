@@ -1,0 +1,48 @@
+{
+    "name": "Infinity IT Project",
+    "code": "infinity-it",
+    "office": "Scranton",
+    "start_date": "2027-09-01",
+    "end_date": "2027-12-15",
+    "events": [
+        {
+            "event_id": 101,
+            "start_date": "2027-09-02 09:00",
+            "end_date": "2027-09-02 10:30",
+            "subject": "Sprint Planning",
+            "location": [
+                {
+                    "class": "ConfRoom-A",
+                    "name": "Conference Room",
+                    "parent": "Scranton"
+                }
+            ]
+        },
+        {
+            "event_id": 102,
+            "start_date": "2027-09-16 15:00",
+            "end_date": "2027-09-16 16:00",
+            "subject": "Sprint Review",
+            "location": [
+                {
+                    "class": "BreakRoom",
+                    "name": "Break Room",
+                    "parent": "Scranton"
+                }
+            ]
+        },
+        {
+            "event_id": 103,
+            "start_date": "2027-09-17 16:00",
+            "end_date": "2027-09-17 16:30",
+            "subject": "Retrospective: the roast of Toby",
+            "location": [
+                {
+                    "class": "ParkingLot",
+                    "name": "Parking Lot (circle of folding chairs)",
+                    "parent": "Scranton"
+                }
+            ]
+        }
+    ]
+}

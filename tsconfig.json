@@ -1,0 +1,20 @@
+/* Visit https://aka.ms/tsconfig to read more about this file */
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "rootDir": "./src/", /* This is where you put the TypeScript source files. */
+    "outDir": "./build/", /* This is where tsc will produce the output files. */
+    "module": "nodenext",
+    "esModuleInterop": true,
+    "moduleResolution": "nodenext",
+    "strict": true,
+    "skipLibCheck": true,
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "**/*.test.*",
+    "**/*.spec.*"
+  ]
+}

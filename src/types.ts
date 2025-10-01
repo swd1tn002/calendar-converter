@@ -12,7 +12,7 @@ type Event = {
     start_date: string;
     end_date: string;
     subject: string;
-    location: Location[];
+    location?: Location[];
 };
 
 type Location = {

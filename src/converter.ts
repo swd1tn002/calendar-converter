@@ -30,6 +30,6 @@ function convertEvent(data: Event): ICalEventData {
         start: parseHelsinkiTime(data.start_date),
         end: parseHelsinkiTime(data.end_date),
         summary: data.subject,
-        location: `${data.location[0].name}, ${data.location[0].parent}`
+        location: data.location && data.location.length > 0 ? `${data.location[0].name}, ${data.location[0].parent}` : undefined
     };
 }
